@@ -1,0 +1,278 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>吆喝科技 AppAdhoc</title>
+    <meta name="description" content="吆喝科技移动产品优化">
+    <meta name="keywords" content="吆喝科技,AppAdhoc,灰度测试,灰度图,a/b测试,灰度发布,灰度发布系统,敏捷开发,abtest,ab测试,ab测试工具,什么是ab测试,ab压力测试,ab测试法,ab,压力测试,ab测试工具下载,怎样优化自己的网站,网站ab测试">
+    <meta name="author" content="info@appadhoc.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- oneapm 统计代码  start -->
+	<script type='text/javascript'>window.BWEUM||(BWEUM={});BWEUM.info = {"stand":true,"agentType":"browser","agent":"bi-collector.oneapm.com/static/js/bw-send-411.4.5.js","beaconUrl":"bi-collector.oneapm.com/beacon","licenseKey":"V3Ymz~y7fu7Yyrrr","applicationID":2277021};</script><script type="text/javascript" src="//bi-collector.oneapm.com/static/js/bw-loader-411.4.5.js"></script>
+	<!-- oneapm 统计代码  end -->
+
+    <link rel="icon" href="/optimizer/console/images/favicon.ico"/>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor-q.css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/question.css -->
+    <link rel="stylesheet" href="styles/question.css"/>
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?38580dc9c308c8a009de8232b523df80";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  </head>
+  <body>
+<nav>
+  <div class=" background">
+        <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/logoPC1.png" class='img-responsive'  alt="" /></a>
+          <div class="beta">
+            <p>
+             BETA
+            </p>
+          </div>
+        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="right">
+          <ul class="right-ul">
+            <li  class="white"><a href="index.html">首页</a></li>
+            <li  class="white"><a href="direction.html">使用帮助</a></li>
+            <li  class="white"><a href="knowledge.html">知识库</a></li>
+            <li  class="white"><a href="index.html#7">关于我们</a></li>
+            <li  class="line"><span>|</span></li>
+            <li  class="login"><a href="https://www.appadhoc.com/optimizer/console/#/login">登录</a></li>
+            <li  class="but"><a href="index.html#6" class="but">申请试用<b class="icon-1-2"></b></a></li>
+          </ul>
+       </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<div class="innerhtml">
+  <div class="weixin">
+    <div class="ackonwlage">
+      <h1>知识库</h1>
+      <span>以下内容来自机智的吆喝科技公众号</span>
+    </div>
+    <div class="right-weixin">
+      <pre>
+        <span>扫一扫</span>
+        <span>关注吆喝科技公众号</span>
+        <span>获取更多A/B测试相关信息</span>
+      </pre>
+      <img src="images/appadhoc.png" alt="" />
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="margin-auto">
+    <a href="javascript:;" id="add" class="add" style="color: #0030ca;font-size: 14px;display: block;text-decoration: none;line-height: 36px;background: #f9f9f9;border: 1px solid #ededed;height: 36px;width: 1200px;text-align: center;margin-top: 30px;">正在加载...</a>
+    <!-- <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400220372&idx=1&sn=d4571fa97fb0a02b6654f70f419ca3a3&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n2.jpg" class="bordercolor" alt=""/>
+          <p>揭开Growth Hacking的神秘面纱（中篇）</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400220372&idx=2&sn=f2ed84e55e5b9ff2ff1c2d959c9cfbd6&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n3.jpg" alt="" />
+          <p>什么样的loading动画，我会等!</p>
+        </a>
+     </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400190055&idx=1&sn=bd2e817a64053ad358b7539ebf0797a8&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n4.jpg" alt="" />
+          <p class="appyh">
+            吆喝科技荣获「中国创新创业大赛」与「千人计划创业大赛」的双料冠军
+          </p>
+       </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400190055&idx=2&sn=8637d594b9b60b3b8088f7c27335dfac&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n1.jpg" class="bordercolor" alt="" />
+          <p>
+            从Google、Facebook、Twitter辞职的技术牛人在忙啥？
+          </p>
+       </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400078701&idx=1&sn=f7a053e61ca3b86be32efaeb6de1222c&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n7.jpg" alt="" />
+          <p>
+            吆喝科技1岁啦！离百年老店还差99年！
+          </p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=400062717&idx=1&sn=2f5943ab5f689370ba5743f54c228d6b&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n8.jpg" class="bordercolor" alt="" />
+          <p>
+            【MDCC 2015】CSDN创始人蒋涛：Mobile SaaS时代
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207917039&idx=1&sn=a2d26b49350013e4886194dd87f4c8d7&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n8.jpg" class="bordercolor" alt="" />
+          <p>
+            3大原则帮你优化着陆页
+          </p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207864920&idx=1&sn=2d607557ed8e042523e3c0dff4ae906f&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n6.jpg" alt="" />
+          <p>
+            设计回顾：记天猫客户端全局导航
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207784646&idx=1&sn=92afbf9e35ff82a2d5a1bf0ddf8c15b6&scene=4#wechat_redirect" target="_blank">
+          <img src="images/tc-n5.jpg" alt="" />
+          <p>
+            实战Growth Hacker：Facebook快速增长的秘诀
+          </p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207951492&idx=1&sn=55018125d1f200a1c537b8d6038b724b&scene=4#wechat_redirect" target="_blank">
+          <img src="images/goole.jpg" class="bordercolor" alt="" />
+          <p>
+            创业团队如何5天搞定产品设计？Google教你
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207503089&idx=1&sn=d7a55cc0e13ed66bba19832362dc0c24&scene=4#wechat_redirect" target="_blank">
+          <img src="images/ABtest.jpg" alt=""/>
+          <p>应该知道的A/B测试基础</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207555749&idx=1&sn=d6bae1c92c6887cb169c6f280f061ae6&scene=4#wechat_redirect" target="_blank">
+          <img src="images/appyouhua.jpg" alt="" />
+          <p>那些A/B测试教我们的App Store优化</p>
+       </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207370656&idx=1&sn=e18fac86578deb3de1a30ac7d18fba8d&scene=4#wechat_redirect" target="_blank">
+          <img src="images/openapp.jpg" alt=""/>
+          <p>Push！请给用户一个打开 app 的理由</p>
+       </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207700907&idx=1&sn=199cfa599a670b604405485192b42005&scene=4#wechat_redirect" target="_blank">
+          <img src="images/dazhong.jpg" alt="" />
+          <p>技术揭秘：大众点评大规模并行AB测试框架Gemini</p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207399829&idx=1&sn=e8e6eb964c4cb47f69839c1c3ccda6b8&scene=4#wechat_redirect" target="_blank">
+          <img src="images/increate.jpg" alt=""/>
+          <p>Airbnb, Dropbox, Evernote靠什么实现快速的用户增长？@SVACE观察团</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207144056&idx=1&sn=a9a07d1de397eb1a77dfa35c2d41af6d&scene=4#wechat_redirect" target="_blank">
+          <img src="images/yearab.jpg" alt="" />
+          <p>那些年我们一起追过的AB</p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207049034&idx=1&sn=2756c1130b6b509f72903eef6de91821&scene=4#wechat_redirect" target="_blank">
+          <img src="images/global.jpg" alt=""/>
+          <p>全数据驱动产品优化，美国互联网公司A/B测试经验分享</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207186277&idx=1&sn=e74b0708044d81b28ff4affc74ec1064&scene=4#wechat_redirect" target="_blank">
+          <img src="images/lifeab.jpg" alt="" />
+          <p>人生没有AB可选，做APP、H5、广告是可以的</p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207650626&idx=1&sn=b43f7921e624a1b0a586f049f3a4e1bd&scene=4#wechat_redirect" target="_blank">
+          <img src="images/win.jpg" class="bordercolor" alt=""/>
+          <p>要想赢得选举，你需要 A/B 测试</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207666977&idx=1&sn=6a431816eb85345e07bfb09e4508dcd2&scene=4#wechat_redirect" target="_blank">
+          <img src="images/howab.jpg" alt="" />
+          <p>如何用A/B测试做网站测试？</p>
+        </a>
+      </div>
+    </div>
+    <div class="border-bottom">
+      <div class="first-left">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207320619&idx=1&sn=83e3102ded126e413bc1ce734569062c&scene=4#wechat_redirect" target="_blank">
+          <img src="images/custom.jpg" alt=""/>
+          <p>怎样做用户体验运营？</p>
+        </a>
+      </div>
+      <div class="first-right">
+        <a href="http://mp.weixin.qq.com/s?__biz=MzAxMjYyNDQxMQ==&mid=207347181&idx=1&sn=b7c32821d23a1c17ea202db9dbad427a&scene=4#wechat_redirect" target="_blank">
+          <img src="images/translate.jpg" class="bordercolor" alt="" />
+          <p>如何让更多的移动端访问者转换成付费顾客？</p>
+        </a>
+      </div>
+    </div> -->
+  </div>
+</div>
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/jquery.js"></script>
+<script src="/bower_components/onepage-scroll/jquery.onepage-scroll.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<!-- build:js(.) scripts/plugins.js -->
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<!-- endbuild -->
+
+<script src="scripts/knowledge.js"></script>
+
+</body>
+</html>
