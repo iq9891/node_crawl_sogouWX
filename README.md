@@ -16,5 +16,6 @@ node抓取搜狗微信公众账号文章列表
 
 ## 功能 ##
 1. getInfo_over_bak 一种实现方式，接口爬到本地
-2. getInfo 主程序 存在的问题是，getInfoFn方法中的接口还是有问题
+2. getInfo 主程序(调去搜狗接口) 存在的问题是，getInfoFn方法中的接口还是有问题
 3. timeDownload 带有定时任务的
+4. getInfoWX 主程序(调去微信接口) 存在的问题是，key不好生成
