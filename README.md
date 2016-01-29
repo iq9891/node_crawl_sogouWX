@@ -19,3 +19,4 @@ node抓取搜狗微信公众账号文章列表
 2. getInfo 主程序(调去搜狗接口) 存在的问题是，getInfoFn方法中的接口还是有问题
 3. timeDownload 带有定时任务的
 4. getInfoWX 主程序(调去微信接口) 存在的问题是，key不好生成
+5. getInfoNew 主程序 利用phantomjs模块抓取，得在客户端安装phantomJs

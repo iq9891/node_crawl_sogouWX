@@ -6,10 +6,10 @@ var cheerio = require("cheerio");
 var http = require("http");
 var fs= require('fs');
 var gs = require('nodegrass');
-
+var sIP = 'http://192.168.1.158/';
 function download(url, callback) {
   //'http://192.168.1.119/tongbuWX/html.json'
-  http.get('http://192.168.1.119/tongbuWX/html.json', function(res) {
+  http.get(sIP + 'tongbuWX/html.json', function(res) {
     var data = "";
     res.on('data', function (chunk) {
       data += chunk;
@@ -19,7 +19,7 @@ function download(url, callback) {
       // fs.writeFile('/Applications/XAMPP/xamppfiles/htdocs/weixinJson/html.json', JSON.stringify(data), function (err) {
       //   if (err) throw err;
       //   console.log('It\'s saved!'); //文件被保存
-      //   http.get('http://192.168.1.119/tongbuWX/html.json', function(res) {
+      //   http.get(sIP + 'tongbuWX/html.json', function(res) {
       //     var data = "";
       //     res.on('data', function (chunk) {
       //       data += chunk;
@@ -39,7 +39,7 @@ function download(url, callback) {
 
 }
 
-var url = "http://weixin.sogou.com/weixin?type=1&query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80&ie=utf8&w=01019900&sut=0&sst0=1453965975472&lkt=0%2C0%2C0&ie=utf8?t="+ (new Date()).getTime();
+var url = "http://weixin.sogou.com/weixin?type=1&query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80&ie=utf8?t="+ (new Date()).getTime();
 var oNew = {link:{}};  //存储数据
 var iNowPage = 1;
 var iAllPage = 5;
@@ -60,7 +60,7 @@ download(url, function(data) {
     downDateFn (iNowPage,aUrl);
 
     function downDateFn (iNow,aUrl) {
-      if (iNow === 2/*iAllPage+1*/) {
+      if (iNow === iAllPage+1) {
         //将数据存入json文件
         fs.writeFile('../adhoc_site/app/public/knowledge.json', JSON.stringify(oNew), function (err) {
           if (err) throw err;
@@ -78,23 +78,24 @@ download(url, function(data) {
   else console.log("error67");
 });
 function getInfoFn (iNow,aUrl,cb) {
-  gs.get('http://192.168.1.119/tongbuWX/ext'+ iNow +'.json', function(d){
-  //console.log('http://weixin.sogou.com/gzhjs?openid=oIWsFt-RSUolht8Bi8IHvmLW_KMk&ext='+ getQueryString(aUrl[1], "ext") +'&cb=arcFn&page='+ iNow +'&t='+ (new Date()).getTime() +'&_='+ (new Date()).getTime());
-  //gs.get('http://weixin.sogou.com/gzhjs?openid=oIWsFt-RSUolht8Bi8IHvmLW_KMk&ext='+ getQueryString(aUrl[1], "ext") +'&cb=arcFn&page='+ iNow +'&t='+ (new Date()).getTime() +'&_='+ (new Date()).getTime(), function(d){
-    fs.writeFile('/Applications/XAMPP/xamppfiles/htdocs/tongbuWX/ext'+ iNow +'.json', d, function (err) {
+  //gs.get(sIP + 'tongbuWX/ext'+ iNow +'.json', function(d){
+
+  console.log('http://weixin.sogou.com/gzhjs?openid=oIWsFt-RSUolht8Bi8IHvmLW_KMk&ext='+ getQueryString(aUrl[1], "ext") +'&cb=arcFn&page='+ iNow +'&t='+ (new Date()).getTime() +'&_='+ (new Date()).getTime());
+  gs.get('http://weixin.sogou.com/gzhjs?openid=oIWsFt-RSUolht8Bi8IHvmLW_KMk&ext='+ getQueryString(aUrl[1], "ext") +'&cb=arcFn&page='+ iNow +'&t='+ (new Date()).getTime() +'&_='+ (new Date()).getTime(), function(d){
+
+    fs.writeFile('/Applications/XAMPP/xamppfiles/htdocs/tongbuWX/aext'+ iNow +'.json', d, function (err) {
       if (err) throw err;
-      console.log('It\'s saved!'); //文件被保存
-      fs.readFile('/Applications/XAMPP/xamppfiles/htdocs/tongbuWX/ext'+ iNow +'.json', 'utf8', function (err,d) {
+
+      fs.readFile('/Applications/XAMPP/xamppfiles/htdocs/tongbuWX/aext'+ iNow +'.json', 'utf8', function (err,d) {
         if (err) throw err;
         console.log('It\'s get ext!'); //文件被保存
         var oldUrl = d.match(/\{(.+?)\]\}/g);
         var oData = JSON.parse(oldUrl);
         oNew[iNow] = oData;
-        var reg = /\<imglink\>(.+?)\<\\\/imglink\>/g;
-        var sLink = d.match(reg);
-        var reg2 = /\<imglink\>\<\!\[CDATA\[|\]\]\>\<\\\/imglink\>/g;
-        var sText = sLink.toString().replace(reg2, "");
+        var sImgLink = d.match(/\<imglink\>(.+?)\<\\\/imglink\>/g);
+        var sText = sImgLink.toString().replace(/\<imglink\>\<\!\[CDATA\[|\]\]\>\<\\\/imglink\>/g, "");
         var aText = sText.split(',');
+
         var sLink = d.match(/\<url\>(.+?)\<\\\/url\>/g);
         var sUrlLink = sLink.toString().replace(/\<url\>\<\!\[CDATA\[|\]\]\>\<\\\/url\>/g, "");
         var aUrlLink = sUrlLink.split(',');

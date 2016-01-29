@@ -1,0 +1,249 @@
+<head><link rel="shortcut icon"  href="http://logo.www.sogou.com/images/logo2014/new/favicon.ico" type="image/x-icon"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta charset="utf-8">
+<title>吆喝科技的公众号详情页 – 搜狗微信搜索</title>
+
+<script>var sst={h_s:(new Date()).getTime()}</script>
+<link href="/wechat/css/main06.min.css?v=2" rel="stylesheet" type="text/css">
+<script>var oldQuery="";var gbkQuery="";var uuid="df668bc3-c7bc-4ffe-8037-d0fee8ebfa89";var keywords_string="";var sab="0";var keywords=oldQuery.split(' ');var now=1454082346287;var idc="zw";var clientIp="100.42.29.214";
+
+</script><script src="/wechat/js/require.min.js"></script>
+<script src="/wechat/js/declare.min.js"></script>
+<script src="/wechat/js/sogou_common2.min.js"></script>
+<script src="/wechat/js/weixin_pc.min.js?v=1"></script>
+<script>bind(window,"load",function(){if(document.body.clientWidth<1200){document.body.className="vr1024"}else{document.body.className=""}bind(window,"resize",function(){if(document.body.clientWidth<1200){document.body.className="vr1024"}else{document.body.className=""}})});</script>
+<script type="text/javascript" charset="gbk" src="/js/jquery-1.11.0.min.js"></script>
+<style>#timefilter{display:none;}</style>
+
+<style>.dy-sx,.s-p .fx,.s-p .sc-pos{z-index: 1}</style><link rel="stylesheet" type="text/css" href="http://www.sogou.com/sug/css/m3.v.20.css"></head>
+<body class="vr1024">
+
+
+
+<link href="/wechat/css/weixin-public.min.css?v=3" rel="stylesheet" type="text/css">
+<style>.wx-rb *{zoom:1}</style>
+<script>
+function ie6style(ieStyle,otherStyle) {
+    var  realcss=otherStyle||"";
+    if(navigator.userAgent.match(/MSIE/)) {
+        realcss=ieStyle
+    }
+    if(realcss!=undefined&&realcss!=""){
+        var head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+        style.type = 'text/css';
+        if (style.styleSheet) {
+            style.styleSheet.cssText = realcss;
+        } else {
+            style.appendChild(document.createTextNode(realcss));
+        }
+        head.appendChild(style);
+    }
+}
+ie6style('.hsform .query{height:18px}');
+</script>
+<div class="pop-ie" style="display:none">
+  <p class="p1">您的浏览器版本过低,，请升级到IE7.0以上版本或者使用其他浏览器，登录后体验新功能。</p>
+  <p class="p2"><a href="#">知道了</a></p>
+  <span></span>
+</div>
+<div class="wrap">
+<dl id="top_login_bar" class="topbar" style="padding-right: 10px"><dd class="no-bg"><a id="top_login" class="res-logn-ico" href="javascript:void(0);" uigs="weixin_pc_login_top">登录</a></dd><script>$(function(){$('#top_login,[name=top_login]').click(function() {var refer = document.referrer;(new Image()).src = 'http://pb.sogou.com/pv.gif?uigs_productid=weixin&type=gzhjs_login&status=2&refer='+encodeURIComponent(refer);showLogin(refer); });})</script></dl>
+<script>weixin_sougou_islogin = false; </script>
+    <!--start header-->
+  <div class="header-box">
+    <div class="header">
+        <a title="回到搜狗首页" href="/" name="scroll-nav" class="logo"></a>
+        <ul class="searchnav" name="scroll-nav">
+          <li><a t="q" href="http://news.sogou.com/news?ie=utf8p=40230447query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_news" onclick="navBar(this,'query=',true);">新闻</a></li>
+          <li><a t="q" href="http://www.sogou.com/web?ie=utf8query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_leftall" onclick="navBar(this,'query=',true);">网页</a></li>
+          <li class="cur">微信</li>
+          <li><a t="q" href="http://zhihu.sogou.com/zhihu?ie=utf8p=73351201query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_zhihu" onclick="navBar(this,'query=',true)">知乎<span class="nav-new"></span></a></li>
+          <li><a t="q" href="http://wenwen.sogou.com/s/?cid=websearch2www=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_wenwen" onclick="navBar(this,'w=',true)">问问</a></li>
+          <li><a t="q" href="http://pic.sogou.com/pics?ie=utf8p=40230504query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_pic" onclick="navBar(this,'query=',true)">图片</a></li>
+          <li><a t="q" href="http://v.sogou.com/v?ie=utf8p=40230608query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" onclick="navBar(this,'query=',true)" id="sogou_video">视频</a></li>
+          
+          <li><a t="q" href="http://map.sogou.com/#lq=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_maps" onclick="navBar(this,'#lq=',false)">地图</a></li>
+          
+          <li><a t="q" href="http://gouwu.sogou.com/shop?p=40031500ie=utf8query=%E5%90%86%E5%96%9D%E7%A7%91%E6%8A%80" id="sogou_shop" onclick="navBar(this,'query=',true)">购物</a></li>
+          <li style="width:45px"><a href="http://www.sogou.com/docs/more.htm?v=1" id="top_more" target="_blank">更多<span>&gt;&gt;</span></a></li>
+        </ul>
+      <script src="/wechat/js/weixin_filter.min.js"></script>
+      <form action="/weixin" name="searchForm" id="searchForm">
+        
+<div class="querybox">
+    <div class="qborder">
+        <div class="qborder2">
+            <input type="hidden" name="type" id="uptype" value="1">
+            <input type="text" class="query" id="upquery" name="query" ov="" value="" autocomplete="off">
+            
+            <input type="hidden" name="ie" value="utf8">
+            
+            
+            
+            <a href="javascript:void(0)" class="qreset2" style="visibility: visible;"></a>
+        </div>
+    </div>
+    <input type="button" value="搜文章" class="swz" onclick="weinxinfilter(this,2)" uigs="weixin_search_button_pc_art">
+    <input type="button" value="搜公众号" class="swz2" onclick="weinxinfilter(this,1)" uigs="weixin_search_button_pc_gzh">
+</div>
+
+
+
+      </form>
+  </div>
+  </div>
+  <!--end header-->
+
+
+<div class="wrap">
+
+<div class="wrapper" id="wrapper">
+<div id="main" class="main">
+
+
+
+
+<script>
+ var weixin_gzh_openid  = "oIWsFt-RSUolht8Bi8IHvmLW_KMk";
+ var weixin_gzh_openid_ext = "A77vTFKGmhESQdwnz0RYkLVEH6Rj2S2GzcJbZ8qcXbKLdZjUcH-9epB5eQHxgvp_";
+ var weixin_gzh_art_keyword = "";
+ var weixin_gzh_art_keyword_old= weixin_gzh_art_keyword;
+ var weixin_gzh_is_endecryptEnabled = "false";
+ var weixin_gzh_login_enabled = "false";
+ var weixin_gzh_sourceid="";
+ var weixin_pc_is_login=false;
+</script>
+<div class="weixin-public wx-rb_v1"><div class="results">
+    <!-- a -->
+    <div class="wx-rb wx-rb2" id="sogou_vr__box_0">
+<div class="img-box">
+<a href="#" onclick="return false;"><span class="ico-bg"></span><span class="ico-r"></span><img style="visibility: visible; height: 76px; margin-left: 0px;" src="http://img01.sogoucdn.com/app/a/100520090/oIWsFt-RSUolht8Bi8IHvmLW_KMk" onload="vrImgLoad(this, 'fit', 76, 76)" onerror="vrImgErr(this, '/wechat/images/account/def71-71.png')" extra="err:'http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4ibIGvU6uEdc8xibPYszKN5fOycMMZr45yLz9ciarLsrLibg/0/0'"></a>
+</div>
+<div class="txt-box">
+<h3 id="weixinname">吆喝科技</h3>
+<h4>
+<span>微信号：<label name="em_weixinhao">gh_65a4d383c6b4</label></span>
+</h4>
+<div class="s-p2">
+<span class="sp-tit">功能介绍:</span><span class="sp-txt">吆喝科技开发的AB测试云服务平台,能帮助用户提高产品的设计、研发、运营和营销的效率,降低产品决策风险;同时也能帮助用户用数据优化广告,让流量的变现价值更大.平台特色:灰度发布、多维度数据统计分析、科...</span>
+</div>
+<div class="s-p2">
+<span class="sp-tit"><script>authnamewrite('2')</script>微信认证：</span><span class="sp-txt">北京吆喝科技有限公司</span>
+</div>
+</div>
+<div style="height:0;overflow:hidden;"></div>
+<div class="v-box">
+<img width="70" height="70" alt="" src="http://img03.sogoucdn.com/app/a/100520081/_0i0uyjEVBYrhznYnx3f"><em><img width="16" height="16" alt="" src="http://img01.sogoucdn.com/net/a/04/link?appid=100520078url=http://wx.qlogo.cn/mmhead/Q3auHgzwzM4ibIGvU6uEdc8xibPYszKN5fOycMMZr45yLz9ciarLsrLibg/0/0"></em>
+<br>微信扫描关注
+            </div>
+</div>
+
+    <div class="zj-news" style="">最近文章
+        <div class="pos-zj">
+            <span class="s1"><input type="text" value="" name="gzhArtKeyWord" placeholder="搜索最近文章" maxlength="30"><a href="javascript:void(0)" id="gzhQuery" uigs="weixin_pc_gzh_detail_search"></a></span>
+            <span class="s2 cur">
+                <a href="javascript:void(0)" id="alltime" data-toggleshow="[name=dtime]" data-def="全部时间">全部时间<i></i></a>
+                <div class="pos-zj2" name="dtime" data-change-per="#alltime" data-change-sel="a" style="display: none">
+                    <a href="javascript:void(0)" name="cycle" uigs="weixin_gzh_detail_search_inttime_all" data-sourceid="inttime_all">全部时间</a>
+                    <a href="javascript:void(0)" name="cycle" uigs="weixin_gzh_detail_search_inttime_day" data-sourceid="inttime_day">一天内</a>
+                    <a href="javascript:void(0)" name="cycle" uigs="weixin_gzh_detail_search_inttime_week" data-sourceid="inttime_week">一周内</a>
+                    <a href="javascript:void(0)" name="cycle" uigs="weixin_gzh_detail_search_inttime_month" data-sourceid="inttime_month">一月内</a>
+                    <a href="javascript:void(0)" name="cycle" uigs="weixin_gzh_detail_search_inttime_year" data-sourceid="inttime_year">一年内</a>
+                </div>
+            </span>
+        </div>
+    </div>
+    <div class="jw-p" style="display: none;" id="subSearchResult"><a href="javascript:void(0)" uigs="weixin_pc_gzh_detail_viewall" name="a_all">返回全部</a>&gt;<span id="s_query"></span><span class="num-s">共搜索到约 <span id="s_total"></span>&nbsp;条信息</span></div>
+    <!-- z -->
+    <div id="wxbox" style=""><div id="gzh_arts_1"> <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_0" d="ab735a258a90e8e1-6bee54fcbd896b2a-35be270240764824165c9bf8a9a7c5f6">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=CBf80b2xkgZGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3wVGht0oPXAK2Q3JxMQ3374KFbNGMLuVuIBBITjIGhVAl4VLoQVI5pB6gaR-KtiGpdYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_0" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVPsKbn9SQ9auewGoYHwLD7K8RgkPOZsGhxcEDyyMsplUeVY3RDibS3T6EiaX9Q2WwptcUQ5dibDwlWMQ/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -45px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=CBf80b2xkgZGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3wVGht0oPXAK2Q3JxMQ3374KFbNGMLuVuIBBITjIGhVAl4VLoQVI5pB6gaR-KtiGpdYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_0">AB测试:数据驱动的产品优化</a></h4>         <p id="sogou_vr_11002601_summary_0">王晔,吆喝科技创始人CEO,清华大学本科、研究生,耶鲁大学博士,曾在Google总部广告质量部门负责产品优化.计算机系统优化领域的专家,发表过多篇顶级论文,拥有多...</p>         <div class="s-p" t="1453371149"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2016-1-21</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_1" d="ab735a258a90e8e1-6bee54fcbd896b2a-da9f47d880e430cc92a5b25b65214e37">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=xaXJ7lM8QYRGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3z7ym96IUpaxWQ3JxMQ3374M10bqEWpNVYZHxxi3Zq0urArVQQVtg9Q19iUTlRCwKZYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_1" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVMH5H11LT40LtyshfjolpDZibgkmhkHsUkqvlIr5qSxrvV7riaybGSO3TSzJwVbhJKFgCW3fibWyZWTA/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -28px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=xaXJ7lM8QYRGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3z7ym96IUpaxWQ3JxMQ3374M10bqEWpNVYZHxxi3Zq0urArVQQVtg9Q19iUTlRCwKZYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_1">让AB测试给您的2016带来一点不同</a></h4>         <p id="sogou_vr_11002601_summary_1">2015年4月,带着Google全数据驱动产品优化的理念,AppAdhoc ABTesting内测版本上线.我们希望,将专业易用的AB测试云服务提供给国内的开发团队,用AB测试优化产品...</p>         <div class="s-p" t="1452166896"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2016-1-7</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_2" d="ab735a258a90e8e1-6bee54fcbd896b2a-807728b8b0b38016eeac35f4f53d7084">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=-kjBTUzEYBBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3zs_Xa3HYAJaWQ3JxMQ3374c8udkucEVvF9JYkIAw6tRgk3iBOWONkWhO88_vtrG_ZYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_2" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVOvyjCScnMXsuxS0UQVjekibouO6N6QSvWwPLVY57LnU9vuvYdkQd10VQN4PYEOpBGbwF3DcFetZcQ/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -17px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=-kjBTUzEYBBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3zs_Xa3HYAJaWQ3JxMQ3374c8udkucEVvF9JYkIAw6tRgk3iBOWONkWhO88_vtrG_ZYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_2">来自 Google 的高可用架构理念与实践</a></h4>         <p id="sogou_vr_11002601_summary_2">孙宇聪,CTO @ coding.net .2007 - 2015 年初在 Google 的 Moutain View 担任 SRE 职位. 参与了 Google 的两个项目:第一个是 Youtube,工作内容涵盖 Video tran...</p>         <div class="s-p" t="1451275846"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-28</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_3" d="ab735a258a90e8e1-6bee54fcbd896b2a-c4614bfbd3d539c4109d366d7111ecba">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=sn77VhdTZLpGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3zhkMbG2DfGYWQ3JxMQ33747bkOF563f7lghpE_6beDjpsfX-QeZRfiK7x9_ILYhCFYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_3" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVPzhQjajzwP0sVVcSQ3VsicBXddsUsgvcO2l6IJbia27cicPD4MLmYv8obeic4WBmtaxMDFWI6CicqFl9g/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -32px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=sn77VhdTZLpGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3zhkMbG2DfGYWQ3JxMQ33747bkOF563f7lghpE_6beDjpsfX-QeZRfiK7x9_ILYhCFYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_3">【圣诞故事】不管黑猫白猫,抓到老鼠就是好猫</a></h4>         <p id="sogou_vr_11002601_summary_3">举个栗子,一个经典的A/B测试的案例就是邓爷爷的名言,“不管黑猫白猫,抓到老鼠就是好猫.”在这里模块开关是猫的颜色,优化指标是抓到老鼠.原本CEO说根据经验黑...</p>         <div class="s-p" t="1450950040"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-24</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_4" d="ab735a258a90e8e1-6bee54fcbd896b2a-640197e7c2443a2228b243be05d294e6">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=MZBLgxp1jtVGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3xjBv0TNu2XJGQ3JxMQ3374vVFEB_Ef-xaM5o40MWKoIA_1C2ZvJDTQQgiDTidVcwlYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_4" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVOrLnHBVYfLAydznC0rUqzaicVib1lfN65RgLtMAu2FUibaj2s2g24JE2X5geszuWPncK473dcVRvxVw/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -20px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=MZBLgxp1jtVGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3xjBv0TNu2XJGQ3JxMQ3374vVFEB_Ef-xaM5o40MWKoIA_1C2ZvJDTQQgiDTidVcwlYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_4">经过漫长的失败,去了趟美国,我才明白Growth Hacking 到...</a></h4>         <p id="sogou_vr_11002601_summary_4">我们最初对增长的理解:让用户更多推荐从去年开始,很多媒体都提到「增长黑客」这一名词.通过当时我们对媒体文章的理解,我们认为「增长黑客」不是通过市场投放...</p>         <div class="s-p" t="1450784109"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-22</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_5" d="ab735a258a90e8e1-6bee54fcbd896b2a-483d4868e7e53c3349eb021aba0ca366">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=fB-1fST8iWBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3wXxvC_N8mYiGQ3JxMQ33744z9Gr8x98wtpR9PssYallsLYx4iVTQPFbgEl3ua2B0pYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_5" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVO234em1j9crSX2JxlRnIaY0EjQibGb6JcbdzBrh8OBDibSm2ygvnK20M59HUySSD3k5FxzzHaaBiayQ/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -17px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=fB-1fST8iWBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3wXxvC_N8mYiGQ3JxMQ33744z9Gr8x98wtpR9PssYallsLYx4iVTQPFbgEl3ua2B0pYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_5">创意主图的AB测试,让直通车点击率飞起来</a></h4>         <p id="sogou_vr_11002601_summary_5">从上图可以看出,影响点击率的因素有创意图片、创意标题、宝贝价格、销量,还有一些特殊标签,如包邮标签、商城标签、聚划算标签,其次还有所处的位置、周围的竞...</p>         <div class="s-p" t="1450343381"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-17</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_6" d="ab735a258a90e8e1-6bee54fcbd896b2a-82f91550e239a8c82fcae2f6b0d2c11e">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=v9b3y-IawNBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3x61oj2dOcs32Q3JxMQ3374njwLJTfCjZssGajOUchtYCu-Ub94S3PpM-XAQdEZ7OtYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_6" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVOsfm8yjicbm2jK6OK8s9FRUY9lrJpA7ibePIqLYRXXA2keLqPGRlia4rI58MSSJIptGLgiatHqiazjHdw/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -40px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=v9b3y-IawNBGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wUW-zPEc5g3x61oj2dOcs32Q3JxMQ3374njwLJTfCjZssGajOUchtYCu-Ub94S3PpM-XAQdEZ7OtYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_6">占领微博微信们的信息垃圾,Facebook是怎么处理的?</a></h4>         <p id="sogou_vr_11002601_summary_6">编者按:这是一篇对前 Facebook 工程师的采访.在微信、微博等社交平台上,我们感兴趣的信息似乎总是被那些无关紧要的信息垃圾湮没,怎么去过滤,怎么提升用户体验...</p>         <div class="s-p" t="1450088900"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-14</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_7" d="ab735a258a90e8e1-6bee54fcbd896b2a-43571025ad490f1b5c0466d495584856">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=MPE2YXjatrxGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06MzXsKuHbUqV5GQ3JxMQ3374rhLvvPmKoCRdkiF3I9HFZBoWNDj0YO6OaPOgd-Ue34lYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_7" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVMygiaRBmj6k3vDuoboTgRUVKMkRyYoTCDoJQ50Gmic71nKWtbcg7T4VZuyxGucVlNSJsQjGjvwNeRA/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -13px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=MPE2YXjatrxGxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06MzXsKuHbUqV5GQ3JxMQ3374rhLvvPmKoCRdkiF3I9HFZBoWNDj0YO6OaPOgd-Ue34lYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_7">Twitter内部调研揭秘:3招提升社交广告有效性</a></h4>         <p id="sogou_vr_11002601_summary_7">互联网广告模式经过了早期的门户广告、搜索广告后,随着移动和社交的崛起,又迎来了社交广告的时代.最早在社交平台上进行广告尝试的是Twitter,紧随其后Facebook...</p>         <div class="s-p" t="1449828451"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-11</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_8" d="ab735a258a90e8e1-6bee54fcbd896b2a-2dfbc22ee50d028cfce6692dbc642700">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=HIL9GMq1R09GxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06MzVhYcDSazMU2Q3JxMQ3374ZKvKUmqToV7UhM6uOdf1QbuaLjhwVGhwTxZc1Y9rNlBYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_8" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVPsn3CKiaxykY6wINiaWC97b4rLKiau0xsyuJwTRLmlZdYEZf68XGnRNnkkM2uIvLPOW4kZaOekW0LQQ/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -23px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=HIL9GMq1R09GxS0xwnj0MmunpHO4hI7nk0kCfWKZlJohCHLDQPU6URbshx8Qv27t2x9DR2olJYBc0PWf0czU0iyxZhZz68dHKyPSVeLsmjU-ngurVkPvkNi82ikvsCjBPRruuatVrlw.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06MzVhYcDSazMU2Q3JxMQ3374ZKvKUmqToV7UhM6uOdf1QbuaLjhwVGhwTxZc1Y9rNlBYy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_8">谷歌苹果通通中枪,对这些界面设计说NO</a></h4>         <p id="sogou_vr_11002601_summary_8">现今社会中,创新总是很少,互相借鉴总是特别多,我们一起来看看那些被滥用但有时并没那么好的设计,给大家敲响警钟,参考无罪,但是请多独立思考,自主设计.如果你...</p>         <div class="s-p" t="1449647846"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-9</div>     </div> </div>  <div class="wx-rb wx-rb3" id="sogou_vr_11002601_box_9" d="ab735a258a90e8e1-6bee54fcbd896b2a-c83e8d6623c7169c7423363d74fc5c59">          <div class="img_box2">         <a target="_blank" href="/websearch/art.jsp?sg=2kVjpB5lvwNUIG8nSKJUZDX4jrLPvLZJhmG26VqcnsBQLtBOj6hivlxqFmO2XRWUBvFbfMru4exK0tMUFLM2K1f6mxnAgPksV1ohYMI-qiBxtfsOEg1wBxvMd6aIJi9XVwDZOT5wjtk.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06Mx703aaj5W99WQ3JxMQ3374g0pjgrGjTk8_wIrx-SmHg5GU8N38sOX6erzi8CH4n79Yy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_img_9" style="width:80px;height:80px;overflow:hidden;display:block;border:1px solid #ebebeb;">             <img src="http://img01.sogoucdn.com/net/a/04/link?appid=100520031url=http://mmbiz.qpic.cn/mmbiz/VptssYpeOVNNRhLyhUzfkBApYpWicmBT1DciaCUIZjyo2vagw6YcoBPaB32s5vyzMAyHS3FI6Df44aicaUCniaZT8w/0?wx_fmt=jpeg" onload="vrImgHandle552(this,80,80)" onerror="imgErr(this.parentNode)" style="border: none; visibility: visible; margin-left: -31px;">         </a>     </div>          <div class="txt-box">         <h4><a class="news_lst_tab zhz" target="_blank" href="/websearch/art.jsp?sg=2kVjpB5lvwNUIG8nSKJUZDX4jrLPvLZJhmG26VqcnsBQLtBOj6hivlxqFmO2XRWUBvFbfMru4exK0tMUFLM2K1f6mxnAgPksV1ohYMI-qiBxtfsOEg1wBxvMd6aIJi9XVwDZOT5wjtk.url=p0OVDH8R4SHyUySb8E88hkJm8GF_McJfBfynRTbN8whFrbQNBts1N2ZAird2Om7wFJmAPOq06Mx703aaj5W99WQ3JxMQ3374g0pjgrGjTk8_wIrx-SmHg5GU8N38sOX6erzi8CH4n79Yy-5x5In7jJFmExjqCxhpkyjFvwP6PuGcQ64lGQ2ZDMuqxplQrsbk" id="sogou_vr_11002601_title_9">【干货】吆喝科技在WOT2015大数据技术峰会的PPT分享</a></h4>         <p id="sogou_vr_11002601_summary_9">WOT2015“互联网+”时代大数据技术峰会圆满结束了! 46位业界大咖,30.6小时的演讲,1206位参会者,温暖的深圳迎来了互联网行业规模最大的技术盛会. 吆喝科技CEO...</p>         <div class="s-p" t="1449575804"><bb class="wx-name" style="display: none" title="吆喝科技" i="oIWsFt-RSUolht8Bi8IHvmLW_KMk"></bb>2015-12-8</div>     </div> </div> </div></div>
+
+        <div id="login_div"><p class="look-more" style="display:none" id="login_p">当前只显示前100条内容，<a id="login_for_gzhjs" btnname="gzh_detail" href="javascript:void(0);" uigs="weixin_pc_login_100_gzh_detail">登录</a>可查看更多。</p></div>
+    </div><div class="p-more" style="visibility: visible;" id="wxmore"><a href="#" onclick="return false;"><span>查看更多</span></a></div>
+    <script src="/wechat/js/sogousearchapp_wenzhang.min.js?v=2"></script>
+    <script src="/js/lib/juicer-min.js"></script>
+    <script src="/wechat/js/weixin_gzh_art_search.min.js"></script>
+    <script src="/wechat/js/weixin_gzh_util.min.js?v=1.2"></script>
+    <script src="/wechat/js/weixin_pvcl_util.min.js"></script>
+    <script src="/wechat/js/weixin_gzh_pc.min.js?v=1.2"></script>
+
+    </div>
+
+</div>
+<script type="text/javascript">var uigs_para={"uigs_productid":"webapp","uigs_cookie":"SUID,sct","uuid":"df668bc3-c7bc-4ffe-8037-d0fee8ebfa89","query":"",exp_id_list:'0_0' ,"exp_id":"null_0-"};</script>
+<script>uigs_para&&(uigs_para.noresult=0);</script>
+<script>function call_cloud(a){setTimeout(function(){call_cloud(a)}, 500);}sst.h_e=$s.t();var newpage= 1,passportUserId=""</script>
+<div class="right" id="right">
+
+<span class="atGradientLine"></span><div class="atTrunk" style="padding-left:15px" id="kmap_entity_div">
+
+
+
+</div>
+
+
+
+</div>
+</div>
+
+<div class="foot" id="s_bottom_form">
+<form name="searchForm1" id="searchForm1" action="/weixin">
+<div class="querybox">
+    <div class="qborder">
+        <div class="qborder2">
+            <input type="hidden" name="type" id="uptype" value="1">
+            <input type="text" class="query" id="upquery" name="query" ov="" value="" autocomplete="off">
+            
+            <input type="hidden" name="ie" value="utf8">
+            
+            
+            
+            <a href="javascript:void(0)" class="qreset2"></a>
+        </div>
+    </div>
+    <input type="button" value="搜文章" class="swz" onclick="weinxinfilter(this,2)" uigs="weixin_search_button_pc_art">
+    <input type="button" value="搜公众号" class="swz2" onclick="weinxinfilter(this,1)" uigs="weixin_search_button_pc_gzh">
+</div>
+
+
+</form>
+</div>
+
+
+
+<div class="cr" id="s_footer">
+<!--[if IE]><a id="sogou_hpfooter" href="#pageEnd"  onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.sogou.com');">设为首页</a>&nbsp;<![endif]-->
+<a target="_blank" id="sogou_webhelp" href="http://help.sogou.com/">搜索帮助</a>&nbsp;
+<a href="http://fankui.help.sogou.com/index.php/web/web/index/type/4" target="_blank">意见反馈</a>&nbsp;
+<a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtwbY2FBzmziwjDxei2vc_1Qext=A77vTFKGmhFmBAaTzqgf1NbGix_1XZIFyoPzNFi7ZlsbO43NgkZnz27t4VJGAAio6oyvNEx40iE20PcE4shZUQ..">官方微信</a>
+© 2016 SOGOU.COM
+<a href="http://www.sogou.com/docs/terms.htm" target="_blank" class="g">免责声明</a>
+</div>
+</div>
+<script>sst.b_e=$s.t();</script>
+<script>var WX_SUGG_PAGE_FROM="pcGzhDetail"</script>
+
+<img style="position:absolute;top:-1px" src="http://www.sogou.com/img/fav.ico?df668bc3-c7bc-4ffe-8037-d0fee8ebfa89" height="0" border="0" width="0"><form id="tupufankuiform" method="post" accept-charset="utf-8"><input type="hidden" name="cause" value=""><input type="hidden" name="query" value="吆喝科技"><input type="hidden" name="refer" value="null"><input type="hidden" name="uuid" value="df668bc3-c7bc-4ffe-8037-d0fee8ebfa89"><input type="hidden" name="scenehtml" value="" id="tupuscenehtml"><input type="hidden" name="queryurl" value=""><input type="hidden" name="content" value=""></form><script>
+sogou_top_words=[];
+
+
+var SugPara = {"bigsize":true,"enableSug":true,"sugType":"wxpub","domain":"w.sugg.sogou.com","productId":"web","sugFormName":"sf","inputid":"upquery","submitId":"stb","suggestRid":"01015002","normalRid":"01019900", oms:1, nofixwidth:1, useParent:1};
+</script>
+<script src="/js/sugg_new_wx.js"></script>
+
+<script type="text/javascript">window.qrcode_type = "2"; </script>
+<script src="/wechat/js/weixin_qrcode.min.js"></script>
+<script src="/wechat/js/weixin_pv.min.js"></script>
+<script>weixinpv('weixin_gzh_pc');if(!$s.ua.ios&&!$s.ua.and){$s.$b(window,["resize"],[fix]);}fix();</script>
+
+<script type="text/javascript" src="/js/pb.nogz.js?v=1"></script>
+<script>weixin_to_top_type="pc_gzh"</script>
+<script>weixin_statistic__to_top_type="pc_gzh_detail"</script>
+<script src="/wechat/js/scroll2top.min.js"></script>
+
+<!--1454082346286-->
+
+
+
+
+
+
+
+<!--zly--><!--weixin--></div><div class="back-top back-top-v1" style="display:none"><a href="#" uigs="weixin_statistic__to_top_pc_gzh_detail"></a></div></body>
